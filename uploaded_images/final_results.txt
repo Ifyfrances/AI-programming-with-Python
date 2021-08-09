@@ -1,0 +1,27 @@
+PROJECT FINAL RESULTS
+** Statistics from calculates_results_stats() function:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog:   0.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  93.3
+
+** Check Statistics - calculated from this function as a check:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+
+***After runnung run_models_batch.sh
+From my program, 
+ - VGG was able to classify the dogs 100% and not a dog 100%
+ - AlexNet was able to classify not dogs 100%, but dogs 50%. It was ble to detect the image was a dog but didn't classify the breed correctly
+ - ResNet was able to classify not dogs 100% and dogs 50%. It was able to identify Dog_01 as a dog
+and classified the breed corectly. But failed to identify Dog_02 as a dog.
+
+CONCLUSION
+
+Compared to the final results of the project, the best model architecture is VGG. 
+It out performed both of the other architectures when considering both objectives of the project
+Also, it is the best model because it was able to classify "dogs" and "not-a-dog" with 100% accuracy and had the best performance 
+regarding breed classification with 100% accuracy.

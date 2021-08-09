@@ -1,0 +1,23 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: NO, Two out of Three classified correctly
+Dog_01 = Vgg,resnet : Classified as Standard Poodle  Actual dog breed: Poodle
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: No
+The only model that classified Dog_01 as the same breed with Dog_02 is 'vgg'
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes
+The three models classified Animal_Name_01.jpg and Object_Name_01.jpg correctly
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: The model that gave the best classification is 'Vgg', it classified the four images correctly. Most especially it was able to classify Dog_02.jpg correctly. It is the only model that achieved this result.  
