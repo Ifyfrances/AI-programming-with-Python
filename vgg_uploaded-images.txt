@@ -54,7 +54,7 @@ Table_Lamp_01.JPG ['table lamp', 'table lamp', 1, 0, 0]
 
  ** Statistics from calculates_results_stats() function:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
-Pct Corr dog: 100.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:   0.0
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
@@ -66,32 +66,10 @@ N Images            :   4
 N Dog Images        :   2
 N Not Dog Images    :   2
  
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
 pct_match           : 50.000000
-
-INCORRECT Dog/NOT Dog Assignments:
 pct_correct_dogs    : 100.000000
-
-INCORRECT Dog/NOT Dog Assignments:
 pct_correct_breed   : 0.000000
-
-INCORRECT Dog/NOT Dog Assignments:
-pct_correct_notdogs : 0.000000
-
-INCORRECT Dog/NOT Dog Assignments:
+pct_correct_notdogs : 100.000000
 Image Labels cheetah, chetah, acinonyx jubatus
 Classifying Labels 1
 Image Labels table lamp

@@ -55,7 +55,7 @@ Dog_02.jpg ['dog', 'siamang, hylobates syndactylus, symphalangus syndactylus', 0
 
  ** Statistics from calculates_results_stats() function:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
-Pct Corr dog:  50.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:   0.0
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
@@ -90,7 +90,7 @@ INCORRECT Dog/NOT Dog Assignments:
 pct_correct_breed   : 0.000000
 
 INCORRECT Dog/NOT Dog Assignments:
-pct_correct_notdogs : 0.000000
+pct_correct_notdogs : 100.000000
 
 INCORRECT Dog/NOT Dog Assignments:
 Image Labels cheetah, chetah, acinonyx jubatus
