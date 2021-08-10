@@ -3,6 +3,48 @@ Command Line Arguments:
     arch = alexnet 
  dogfile = dognames.txt
 
+Printing all key-value pairs in dictionary results_dic:
+Filename= Great_dane_05320.jpg    Pet Label= great dane
+Filename= Beagle_01125.jpg    Pet Label= beagle
+Filename= Collie_03797.jpg    Pet Label= collie
+Filename= Dalmatian_04068.jpg    Pet Label= dalmatian
+Filename= Miniature_schnauzer_06884.jpg    Pet Label= miniature schnauzer
+Filename= German_shepherd_dog_04890.jpg    Pet Label= german shepherd dog
+Filename= Basenji_00963.jpg    Pet Label= basenji
+Filename= cat_02.jpg    Pet Label= cat
+Filename= Golden_retriever_05223.jpg    Pet Label= golden retriever
+Filename= great_horned_owl_02.jpg    Pet Label= great horned owl
+Filename= Basset_hound_01034.jpg    Pet Label= basset hound
+Filename= Cocker_spaniel_03750.jpg    Pet Label= cocker spaniel
+Filename= Poodle_07927.jpg    Pet Label= poodle
+Filename= Beagle_01141.jpg    Pet Label= beagle
+Filename= Saint_bernard_08010.jpg    Pet Label= saint bernard
+Filename= Boxer_02426.jpg    Pet Label= boxer
+Filename= Great_pyrenees_05367.jpg    Pet Label= great pyrenees
+Filename= German_shorthaired_pointer_04986.jpg    Pet Label= german shorthaired pointer
+Filename= Dalmatian_04037.jpg    Pet Label= dalmatian
+Filename= fox_squirrel_01.jpg    Pet Label= fox squirrel
+Filename= polar_bear_04.jpg    Pet Label= polar bear
+Filename= Basenji_00974.jpg    Pet Label= basenji
+Filename= Saint_bernard_08036.jpg    Pet Label= saint bernard
+Filename= Beagle_01170.jpg    Pet Label= beagle
+Filename= gecko_02.jpg    Pet Label= gecko
+Filename= Boston_terrier_02285.jpg    Pet Label= boston terrier
+Filename= Golden_retriever_05195.jpg    Pet Label= golden retriever
+Filename= Golden_retriever_05182.jpg    Pet Label= golden retriever
+Filename= Dalmatian_04017.jpg    Pet Label= dalmatian
+Filename= Golden_retriever_05257.jpg    Pet Label= golden retriever
+Filename= Boston_terrier_02259.jpg    Pet Label= boston terrier
+Filename= gecko_80.jpg    Pet Label= gecko
+Filename= Poodle_07956.jpg    Pet Label= poodle
+Filename= Great_pyrenees_05435.jpg    Pet Label= great pyrenees
+Filename= cat_01.jpg    Pet Label= cat
+Filename= Boston_terrier_02303.jpg    Pet Label= boston terrier
+Filename= skunk_029.jpg    Pet Label= skunk
+Filename= cat_07.jpg    Pet Label= cat
+Filename= Rabbit_002.jpg    Pet Label= rabbit
+Filename= German_shepherd_dog_04931.jpg    Pet Label= german shepherd dog
+
 Pet Image Label Dictionary has 40 key-value pairs.
 Below are 10 of them:
  1 key:           Great_dane_05320.jpg  label:                 great dane
@@ -307,16 +349,6 @@ Real:                        cat   Classifier: african hunting dog, hyena dog, c
 PetLabelDog: 0  ClassLabelDog: 0
 
 # Total Images 40 # Matches: 30 # NOT Matches: 10
-cat_02.jpg ['cat', 'tiger cat, cat', 1, 0, 0]
-great_horned_owl_02.jpg ['great horned owl', 'ruffed grouse, partridge, bonasa umbellus', 0, 0, 0]
-fox_squirrel_01.jpg ['fox squirrel', 'fox squirrel, eastern fox squirrel, sciurus niger', 1, 0, 0]
-polar_bear_04.jpg ['polar bear', 'ice bear, polar bear, ursus maritimus, thalarctos maritimus', 1, 0, 0]
-gecko_02.jpg ['gecko', 'alligator lizard', 0, 0, 0]
-gecko_80.jpg ['gecko', 'tree frog, tree-frog', 0, 0, 0]
-cat_01.jpg ['cat', 'african hunting dog, hyena dog, cape hunting dog, lycaon pictus', 0, 0, 0]
-skunk_029.jpg ['skunk', 'skunk, polecat, wood pussy', 1, 0, 0]
-cat_07.jpg ['cat', 'egyptian cat, cat', 1, 0, 0]
-Rabbit_002.jpg ['rabbit', 'wood rabbit, cottontail, cottontail rabbit, rabbit', 1, 0, 0]
 
  ** Statistics from calculates_results_stats() function:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
@@ -327,42 +359,22 @@ N Images: 40  N Dog Images: 30  N NotDog Images: 10
 Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
 
 
-*** Results Summary for CNN Model Architecture ALEXNET ***
-N Images            :  40
-N Dog Images        :  30
-N Not Dog Images    :  10
+** Results Summary for CNN Model Architecture: ALEXNET
+N Images: 40
+N Dog Images: 30
+N Not-Dog Images: 10
  
-pct_match           : 75.000000
-pct_correct_dogs    : 100.000000
-pct_correct_breed   : 80.000000
-pct_correct_notdogs : 100.000000
-Image Labels tiger cat, cat
-Classifying Labels 1
-Image Labels ruffed grouse, partridge, bonasa umbellus
-Classifying Labels 0
-Image Labels fox squirrel, eastern fox squirrel, sciurus niger
-Classifying Labels 1
-Image Labels ice bear, polar bear, ursus maritimus, thalarctos maritimus
-Classifying Labels 1
-Image Labels alligator lizard
-Classifying Labels 0
-Image Labels tree frog, tree-frog
-Classifying Labels 0
-Image Labels african hunting dog, hyena dog, cape hunting dog, lycaon pictus
-Classifying Labels 0
-Image Labels skunk, polecat, wood pussy
-Classifying Labels 1
-Image Labels egyptian cat, cat
-Classifying Labels 1
-Image Labels wood rabbit, cottontail, cottontail rabbit, rabbit
-Classifying Labels 1
+pct_match: 75.0
+pct_correct_dogs: 100.0
+pct_correct_breed: 80.0
+pct_correct_notdogs: 100.0
 
-INCORRECT Dog Breed Assignments:
-Real:                     beagle   Classifier:               english foxhound
-Real:             great pyrenees   Classifier:                         kuvasz
-Real:                     beagle   Classifier:  walker hound, walker foxhound
-Real:             boston terrier   Classifier:                        basenji
-Real:           golden retriever   Classifier:                tibetan mastiff
-Real:           golden retriever   Classifier:           afghan hound, afghan
+ INCORRECT Dog Breed Assignments:
+Real Pet Label: beagle   Classifier: english foxhound
+Real Pet Label: great pyrenees   Classifier: kuvasz
+Real Pet Label: beagle   Classifier: walker hound, walker foxhound
+Real Pet Label: boston terrier   Classifier: basenji
+Real Pet Label: golden retriever   Classifier: tibetan mastiff
+Real Pet Label: golden retriever   Classifier: afghan hound, afghan
 
-** Total Elapsed Runtime: 0:1:18
+** Total Elapsed Runtime: 0:0:3

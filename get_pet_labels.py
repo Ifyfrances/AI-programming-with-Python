@@ -62,7 +62,7 @@ def get_pet_labels(image_dir):
     for image_title in pet_images_dir:
         #ignore files start with dit
         if image_title.startswith('.'):
-            pass
+            continue
         # sets titles to lower case letter and splits string by _ 
         # to break into two words
         image_title_list = image_title.lower().split("_")
@@ -72,20 +72,12 @@ def get_pet_labels(image_dir):
         image_title_list.pop() #remove the last item (02259.jpg)
         pet_name = " ".join(image_title_list)
         pet_label = [pet_name]        
-        results_dic[image_title] = pet_label
-                   
-        
-    #Number of items in the dictionary
-    #dic_items = len(results_dic)
-    #print("\nEmpty Dictionary results_dic - n items = ", dic_items)
-
+        results_dic[image_title] = pet_label  
     #Iterating through a dictionary printing all keys & their associated values
-    #print("\nPrinting all key-value pairs in dictionary results_dic:")
-
-    #for key in results_dic:
-     #   print("Filename=", key, "   Pet Labels=", results_dic[key][0])
-    
-       
+    print("\nPrinting all key-value pairs in dictionary results_dic:")
+    for key in results_dic:
+        print("Filename=", key, "   Pet Label=", results_dic[key][0])  
+        
     # Replace None with the results_dic dictionary that you created with this
     # function
     return results_dic   

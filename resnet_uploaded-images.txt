@@ -3,6 +3,12 @@ Command Line Arguments:
     arch = resnet 
  dogfile = dognames.txt
 
+Printing all key-value pairs in dictionary results_dic:
+Filename= Cheetah_01.JPG    Pet Label= cheetah
+Filename= Dog_01.JPG    Pet Label= dog
+Filename= Table_Lamp_01.JPG    Pet Label= table lamp
+Filename= Dog_02.jpg    Pet Label= dog
+
 Pet Image Label Dictionary has 4 key-value pairs.
 Below are 4 of them:
  1 key:                 Cheetah_01.JPG  label:                    cheetah
@@ -49,9 +55,6 @@ Real:                        dog   Classifier: siamang, hylobates syndactylus, s
 PetLabelDog: 1  ClassLabelDog: 0
 
 # Total Images 4 # Matches: 2 # NOT Matches: 2
-Cheetah_01.JPG ['cheetah', 'cheetah, chetah, acinonyx jubatus', 1, 0, 0]
-Table_Lamp_01.JPG ['table lamp', 'table lamp', 1, 0, 0]
-Dog_02.jpg ['dog', 'siamang, hylobates syndactylus, symphalangus syndactylus', 0, 1, 0]
 
  ** Statistics from calculates_results_stats() function:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
@@ -62,45 +65,20 @@ N Images:  4  N Dog Images:  2  N NotDog Images:  2
 Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
 
 
-*** Results Summary for CNN Model Architecture RESNET ***
-N Images            :   4
-N Dog Images        :   2
-N Not Dog Images    :   2
+** Results Summary for CNN Model Architecture: RESNET
+N Images: 4
+N Dog Images: 2
+N Not-Dog Images: 2
  
+pct_match: 50.0
+pct_correct_dogs: 50.0
+pct_correct_breed: 0.0
+pct_correct_notdogs: 100.0
 
-INCORRECT Dog/NOT Dog Assignments:
+INCORRECT Dog \ NOT Dog Assignments:
+Real pet Label: dog   Classifier: siamang, hylobates syndactylus, symphalangus syndactylus
 
-INCORRECT Dog/NOT Dog Assignments:
+ INCORRECT Dog Breed Assignments:
+Real Pet Label: dog   Classifier: standard poodle, poodle
 
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-
-INCORRECT Dog/NOT Dog Assignments:
-pct_match           : 50.000000
-
-INCORRECT Dog/NOT Dog Assignments:
-pct_correct_dogs    : 50.000000
-
-INCORRECT Dog/NOT Dog Assignments:
-pct_correct_breed   : 0.000000
-
-INCORRECT Dog/NOT Dog Assignments:
-pct_correct_notdogs : 100.000000
-
-INCORRECT Dog/NOT Dog Assignments:
-Image Labels cheetah, chetah, acinonyx jubatus
-Classifying Labels 1
-Image Labels table lamp
-Classifying Labels 1
-Image Labels siamang, hylobates syndactylus, symphalangus syndactylus
-Classifying Labels 0
-
-INCORRECT Dog Breed Assignments:
-Real:                        dog   Classifier:        standard poodle, poodle
-
-** Total Elapsed Runtime: 0:1:16
+** Total Elapsed Runtime: 0:0:1

@@ -100,15 +100,12 @@ def calculates_results_stats(results_dic):
         # Classifier classifies image as Dog (& pet image is a dog)
         # count number of correct dog classification  
         # index 4 created from classifying images fcn
-        if results_dic[key][4] == 1:
+        if results_dic[key][3] == 1 and results_dic[key][4] == 1:
             results_stats_dic['n_correct_dogs'] += 1
         else:
-            print(key, results_dic[key])       
-        
-    # Pet Image Label is NOT a Dog and correctly claasified    
-    # count number of correct non-dog classification  
-        if results_dic[key][3] == 0 and results_dic[key][4] == 0:
-            results_stats_dic['n_correct_notdogs'] += 1
+            # Pet Image Label is NOT a Dog and correctly claasified                         # count number of correct non-dog classification  
+            if results_dic[key][3] == 0 and results_dic[key][4] == 0:
+                results_stats_dic['n_correct_notdogs'] += 1
         
     # Calculates run statistics (counts & percentages) below that are calculated
     # using the counters from above.

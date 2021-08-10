@@ -76,7 +76,7 @@ pct_match           : 50.000000
 pct_correct_dogs    : 100.000000
 pct_correct_breed   : 0.000000
 pct_correct_notdogs : 100.000000
-** Total Elapsed Runtime: 0:1:18
+
 
  - AlexNet was able to classify not dogs 100%, but dogs 50%. It was ble to detect the image was a dog but didn't classify the breed correctly
 *** Results Summary for CNN Model Architecture ALEXNET ***
@@ -88,7 +88,7 @@ pct_match           : 50.000000
 pct_correct_dogs    : 50.000000
 pct_correct_breed   : 0.000000
 pct_correct_notdogs : 100.000000
-** Total Elapsed Runtime: 0:1:15
+
 
  - ResNet was able to classify not dogs 100% and dogs 50%. It was able to identify Dog_01 as a dog
 and classified the breed corectly. But failed to identify Dog_02 as a dog.
@@ -101,7 +101,7 @@ pct_match           : 50.000000
 pct_correct_dogs    : 50.000000
 pct_correct_breed   : 0.000000
 pct_correct_notdogs : 100.000000
-** Total Elapsed Runtime: 0:1:16
+
 
 CONCLUSION
 Compared to the final results of the project, the best model architecture is VGG. 

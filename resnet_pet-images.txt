@@ -3,6 +3,48 @@ Command Line Arguments:
     arch = resnet 
  dogfile = dognames.txt
 
+Printing all key-value pairs in dictionary results_dic:
+Filename= Great_dane_05320.jpg    Pet Label= great dane
+Filename= Beagle_01125.jpg    Pet Label= beagle
+Filename= Collie_03797.jpg    Pet Label= collie
+Filename= Dalmatian_04068.jpg    Pet Label= dalmatian
+Filename= Miniature_schnauzer_06884.jpg    Pet Label= miniature schnauzer
+Filename= German_shepherd_dog_04890.jpg    Pet Label= german shepherd dog
+Filename= Basenji_00963.jpg    Pet Label= basenji
+Filename= cat_02.jpg    Pet Label= cat
+Filename= Golden_retriever_05223.jpg    Pet Label= golden retriever
+Filename= great_horned_owl_02.jpg    Pet Label= great horned owl
+Filename= Basset_hound_01034.jpg    Pet Label= basset hound
+Filename= Cocker_spaniel_03750.jpg    Pet Label= cocker spaniel
+Filename= Poodle_07927.jpg    Pet Label= poodle
+Filename= Beagle_01141.jpg    Pet Label= beagle
+Filename= Saint_bernard_08010.jpg    Pet Label= saint bernard
+Filename= Boxer_02426.jpg    Pet Label= boxer
+Filename= Great_pyrenees_05367.jpg    Pet Label= great pyrenees
+Filename= German_shorthaired_pointer_04986.jpg    Pet Label= german shorthaired pointer
+Filename= Dalmatian_04037.jpg    Pet Label= dalmatian
+Filename= fox_squirrel_01.jpg    Pet Label= fox squirrel
+Filename= polar_bear_04.jpg    Pet Label= polar bear
+Filename= Basenji_00974.jpg    Pet Label= basenji
+Filename= Saint_bernard_08036.jpg    Pet Label= saint bernard
+Filename= Beagle_01170.jpg    Pet Label= beagle
+Filename= gecko_02.jpg    Pet Label= gecko
+Filename= Boston_terrier_02285.jpg    Pet Label= boston terrier
+Filename= Golden_retriever_05195.jpg    Pet Label= golden retriever
+Filename= Golden_retriever_05182.jpg    Pet Label= golden retriever
+Filename= Dalmatian_04017.jpg    Pet Label= dalmatian
+Filename= Golden_retriever_05257.jpg    Pet Label= golden retriever
+Filename= Boston_terrier_02259.jpg    Pet Label= boston terrier
+Filename= gecko_80.jpg    Pet Label= gecko
+Filename= Poodle_07956.jpg    Pet Label= poodle
+Filename= Great_pyrenees_05435.jpg    Pet Label= great pyrenees
+Filename= cat_01.jpg    Pet Label= cat
+Filename= Boston_terrier_02303.jpg    Pet Label= boston terrier
+Filename= skunk_029.jpg    Pet Label= skunk
+Filename= cat_07.jpg    Pet Label= cat
+Filename= Rabbit_002.jpg    Pet Label= rabbit
+Filename= German_shepherd_dog_04931.jpg    Pet Label= german shepherd dog
+
 Pet Image Label Dictionary has 40 key-value pairs.
 Below are 10 of them:
  1 key:           Great_dane_05320.jpg  label:                 great dane
@@ -307,58 +349,32 @@ Real:                        cat   Classifier:   norwegian elkhound, elkhound
 PetLabelDog: 0  ClassLabelDog: 1
 
 # Total Images 40 # Matches: 33 # NOT Matches: 7
-cat_02.jpg ['cat', 'tabby, tabby cat, cat', 1, 0, 0]
-great_horned_owl_02.jpg ['great horned owl', 'great grey owl, great gray owl, strix nebulosa', 0, 0, 0]
-fox_squirrel_01.jpg ['fox squirrel', 'fox squirrel, eastern fox squirrel, sciurus niger', 1, 0, 0]
-polar_bear_04.jpg ['polar bear', 'ice bear, polar bear, ursus maritimus, thalarctos maritimus', 1, 0, 0]
-gecko_02.jpg ['gecko', 'african chameleon, chamaeleo chamaeleon', 0, 0, 0]
-gecko_80.jpg ['gecko', 'tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui', 0, 0, 0]
-skunk_029.jpg ['skunk', 'skunk, polecat, wood pussy', 1, 0, 0]
-cat_07.jpg ['cat', 'egyptian cat, cat', 1, 0, 0]
-Rabbit_002.jpg ['rabbit', 'wood rabbit, cottontail, cottontail rabbit, rabbit', 1, 0, 0]
 
  ** Statistics from calculates_results_stats() function:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
-Pct Corr dog: 103.3 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
+Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
 Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
 
 
-*** Results Summary for CNN Model Architecture RESNET ***
-N Images            :  40
-N Dog Images        :  30
-N Not Dog Images    :  10
+** Results Summary for CNN Model Architecture: RESNET
+N Images: 40
+N Dog Images: 30
+N Not-Dog Images: 10
  
-pct_match           : 82.500000
-pct_correct_dogs    : 103.333333
-pct_correct_breed   : 90.000000
-pct_correct_notdogs : 90.000000
-Image Labels tabby, tabby cat, cat
-Classifying Labels 1
-Image Labels great grey owl, great gray owl, strix nebulosa
-Classifying Labels 0
-Image Labels fox squirrel, eastern fox squirrel, sciurus niger
-Classifying Labels 1
-Image Labels ice bear, polar bear, ursus maritimus, thalarctos maritimus
-Classifying Labels 1
-Image Labels african chameleon, chamaeleo chamaeleon
-Classifying Labels 0
-Image Labels tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
-Classifying Labels 0
-Image Labels norwegian elkhound, elkhound
-Classifying Labels 0
-Image Labels skunk, polecat, wood pussy
-Classifying Labels 1
-Image Labels egyptian cat, cat
-Classifying Labels 1
-Image Labels wood rabbit, cottontail, cottontail rabbit, rabbit
-Classifying Labels 1
+pct_match: 82.5
+pct_correct_dogs: 100.0
+pct_correct_breed: 90.0
+pct_correct_notdogs: 90.0
 
-INCORRECT Dog Breed Assignments:
-Real:             great pyrenees   Classifier:                         kuvasz
-Real:                     beagle   Classifier:  walker hound, walker foxhound
-Real:           golden retriever   Classifier:                       leonberg
+INCORRECT Dog \ NOT Dog Assignments:
+Real pet Label: cat   Classifier: norwegian elkhound, elkhound
 
-** Total Elapsed Runtime: 0:1:20
+ INCORRECT Dog Breed Assignments:
+Real Pet Label: great pyrenees   Classifier: kuvasz
+Real Pet Label: beagle   Classifier: walker hound, walker foxhound
+Real Pet Label: golden retriever   Classifier: leonberg
+
+** Total Elapsed Runtime: 0:0:6
